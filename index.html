@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+
+    <!-- Link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <!-- AND/OR YOUR OWN CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+    <main role="main">
+        <div class="container">
+
+            <div class="row text-center">
+                <h1 class="display-3">Crystals Collector</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            RANDOM SCORE
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h1 id="random-score" class="display-6 text-center"></h1>
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+                        <div class="card-header text-center">
+                            YOUR TOTAL SCORE
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h1 id="total-score" class="display-6 text-center">0</h1>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            WINS
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h1 id="total-wins" class="display-6 text-center">0</h1>
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+                        <div class="card-header text-center">
+                            LOSES
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h1 id="total-losses" class="display-6 text-center">0</h1>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id= "message" class="col-md-4">
+                </div> 
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-3">
+                    <p>
+                        <img id="crystal1" src="assets/images/crystal-1.png" class="w-75 img-fluid rounded float-left rounded-circle" alt="Responsive image">
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        <img id="crystal2" src="assets/images/crystal-2.png" class="w-75 img-fluid rounded float-left rounded-circle" alt="Responsive image">
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        <img id="crystal3" src="assets/images/crystal-3.png" class="w-75 img-fluid rounded float-left rounded-circle" alt="Responsive image">
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        <img id="crystal4" src="assets/images/crystal-4.png" class="w-75 img-fluid rounded float-left rounded-circle" alt="Responsive image">
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+        <!-- /container -->
+
+    </main>
+
+
+
+    <!-- Link to your JavaScript -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
