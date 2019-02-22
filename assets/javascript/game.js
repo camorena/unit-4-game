@@ -66,7 +66,7 @@ $(document).ready(function () {
         if (totalScore === randomScore) {
             totalWins++;
             $("#total-wins").text(totalWins);
-            $("#message").html("<img src='assets/images/you-win.png'>");
+            $("#message").html("<img src='assets/images/you-win.png' class='img-fluid rounded float-left rounded-circle'>");
             winSound.play();
             setTimeout(function(){
                 initGame();
@@ -79,7 +79,7 @@ $(document).ready(function () {
         if (totalScore > randomScore) {
             totalLosses++;
             $("#total-losses").text(totalLosses);
-            $("#message").html("<img src='assets/images/game-over.png'>");
+            $("#message").html("<img src='assets/images/game-over.png' class='img-fluid rounded float-left rounded-circle'>");
             looseSound.play();
             setTimeout(function(){
                 initGame();
